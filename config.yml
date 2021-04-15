@@ -5,7 +5,7 @@ theme: hugo-theme-stack
 paginate: 5
 
 permalinks:
-  post: /p/:slug/
+  post: /posts/:slug/
   page: /:slug/
 
 params:
