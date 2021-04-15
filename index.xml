@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>I am Duygu</title>
+        <link>https://iamduygu.com/</link>
+        <description>Recent content on I am Duygu</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 15 Apr 2021 20:25:38 +0200</lastBuildDate><atom:link href="https://iamduygu.com/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
