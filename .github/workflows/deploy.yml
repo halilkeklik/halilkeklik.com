@@ -39,4 +39,4 @@ jobs:
           cname: halilkeklik.com
           commit_message: ${{ github.event.head_commit.message }}
           user_name: Halil Keklik
-          user_email: halilkeklik@gmail.com
+          user_email: halil@halilkeklik.com
