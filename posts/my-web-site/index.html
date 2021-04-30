@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-<title>Tags</title>
+<title>Hugo ile oluşturduğum web sitesi</title>
 
 
   
@@ -31,8 +31,8 @@
   title="Halil Keklik"
 />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Hugo ile oluşturduğum web sitesi"/>
+<meta name="twitter:description" content="Web Sitesi"/>
 
 
 
@@ -111,10 +111,10 @@
 
     <div class="intro-header">
       <div class="container">
-        <div class="tags-heading">
+        <div class="posts-heading">
           
             <h1>
-              Tags
+              Hugo ile oluşturduğum web sitesi
             </h1>
           
           
@@ -126,9 +126,50 @@
 
     
   <div class="container" role="main">
-    <article class="post-preview">
+    <article class="article" class="blog-post">
+      
+  <p>Hugo ile nasıl static web sitesi nasıl oluştuduğumdan anlatıcağım.</p>
+<p>İlk olarak google domainsten bir domain adresi aldım. Bu domain adresinin DNS ayarlarını kontrol etmek için <a href="https://www.cloudflare.com/">cloudflare</a> yönlendirdim.</p>
+<p>Domain işlerimi hallettikten sonra site oluşturma kısmı halletmem gerekiryordu. Bunun için <a href="https://themes.gohugo.io/">Hugodan</a> bir tema seçmem gerekti. Tema işini hallettikten sonra <a href="https://gohugo.io/getting-started/quick-start/">Hugonun</a> kendi sitesinde ki tutorial kısmını takip ederek bir static site oluturmuş oldum.</p>
+<p>Oluturmuş olduğum bu site local bilgisayarımda çalışıyordu.Burada github pages devreye giricek.</p>
+<p><a href="https://pages.github.com/">Github pages</a>, github repository bulunan web sitemi domainme yönlendirmekle kalmayıp bir ubuntu cihaz üzerinde otomatik oluşturup bir hata olup olmadığınıda sana geri bildiriyor. Böylelikle yeni bir post paylaştığınızda kendinizin test etmesine gerek kalmıyor.</p>
+<p>Son olarakta githup pagesı cloudflare yöneldirmek kaldı. Burada da <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">github docs</a> bulucağınız A tipi kayıtları DNS ayarlarnıza girerseniz halletmiş oluyorsunuz.</p>
+
+
+
+
       
     </article>
+    
+    
+      
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+        (function() {
+            
+            
+            if (window.location.hostname == "localhost") return;
+
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            var disqus_shortname = 'yourdisqusshortname';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+  <a href="https://disqus.com/" class="dsq-brlink"
+    >comments powered by <span class="logo-disqus">Disqus</span></a
+  >
+
+
+    
   </div>
 
     <footer>
