@@ -3,6 +3,7 @@ title: "Hugo ile oluşturduğum web sitesi"
 slug: "my-web-site"
 description: "Web Sitesi"
 date: 2021-04-22T20:25:38+02:00
+weight: 2
 draft: false
 ---
 Hugo ile nasıl static web sitesi nasıl oluştuduğumdan anlatıcağım.
