@@ -8,9 +8,17 @@ enableInlineShortcodes: true
 footnoteReturnLinkContents: ^
 googleAnalytics: UA-XXXXXXXX-XX
 disqusShortName: yourdisqusshortname
+permalinks:
+	posts : "/:year/:month/:day/:filename/"
+	page : "/:filename/"
+
 params:
   goatcounter:
     domain: stats.domain.com
+  
+  mainSections : ["page/about.md"]
+  favicon : "favicon.ico"
+  
   nav:
     - identifier: about
       name: About
