@@ -16,7 +16,7 @@ params:
   goatcounter:
     domain: stats.domain.com
   
-  mainSections : ["posts"]
+  mainSections : ["page/about.md"]
   favicon : "favicon.ico"
   
   nav:
