@@ -9,8 +9,8 @@ footnoteReturnLinkContents: ^
 googleAnalytics: UA-XXXXXXXX-XX
 disqusShortName: yourdisqusshortname
 permalinks:
-	posts : "/:year/:month/:day/:filename/"
-	page : "/:filename/"
+  posts : "/:year/:month/:day/:filename/"
+  page : "/:filename/"
 
 params:
   goatcounter:
