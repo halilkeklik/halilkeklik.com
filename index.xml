@@ -1,17 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Halil Keklik on Halil Keklik</title>
-		<link>https://halilkeklik.com/</link>
-		<description>Recent content in Halil Keklik </description>
-		<generator>Hugo -- gohugo.io</generator>
-		
-  		<language>en</language>
-		
-		<managingEditor>Page(&#34;Halil Keklik&#34;) (Halil Keklik)</managingEditor>
-    	
-  		<lastBuildDate>Thu, 22 Apr 2021 20:25:38 +0200</lastBuildDate>
-		
-		<atom:link href="/" rel="self" type="application/rss+xml" />
-		
-	</channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Halil Keklik on Halil Keklik</title><link>https://halilkeklik.com/</link><description>Recent content in Halil Keklik</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Page("Halil Keklik") (Halil Keklik)</managingEditor><lastBuildDate>Thu, 22 Apr 2021 20:25:38 +0200</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml"/></channel></rss>
