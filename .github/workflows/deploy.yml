@@ -28,7 +28,7 @@ jobs:
         run: hugo version
 
       - name: Compile files
-        run: hugo -D
+        run: hugo --gc --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
