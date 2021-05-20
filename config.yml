@@ -38,8 +38,8 @@ params:
     - name: GitHub
       url: https://github.com/halilkeklik
       icon: "fab fa-github"
-    
-    social:
+
+  social:
     - name: LinkedIn
       url: https://www.linkedin.com/in/halil-keklik-594b21179/
       icon: "fab fa-linkedin"
