@@ -8,23 +8,14 @@ enableInlineShortcodes: true
 footnoteReturnLinkContents: ^
 googleAnalytics: UA-XXXXXXXX-XX
 disqusShortName: yourdisqusshortname
-
-Author:
-  name: Halil Keklik
-outputs:
-  section:
-    - JSON
-    - HTML
-    
 permalinks:
   posts : "/:year/:month/:day/:filename/"
   page : "/:filename/"
-
 params:
   goatcounter:
     domain: stats.domain.com
   
-  mainSections : ["post"]
+  mainSections : ["posts"]
   favicon : "favicon.ico"
   
   nav:
@@ -33,23 +24,21 @@ params:
       icon: fas fa-user fa-lg
       url: /about/
       weight: 3
-    - identifier: archives
-      name: Archives
-      icon: fas fa-archive fa-lg
-      url: archives
-      weight: 3
     - identifier: search
       name: Search
       icon: fas fa-search fa-lg
       url: search
       weight: 3
-      
+    - identifier: archives
+      name: Archives
+      icon: fas fa-archive fa-lg
+      url: archives
+      weight: 3
   social:
     - name: GitHub
-      url: https://github.com/halilkeklik/
+      url: https://github.com/halilkeklik
       icon: "fab fa-github"
-  
-  social:
+    social:
     - name: LinkedIn
       url: https://www.linkedin.com/in/halil-keklik-594b21179/
       icon: "fab fa-linkedin"
@@ -58,4 +47,9 @@ params:
     width: 50
     height: 50
     alt: Logo
-
+Author:
+  name: Halil Keklik
+outputs:
+  section:
+    - JSON
+    - HTML
