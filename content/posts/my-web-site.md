@@ -6,7 +6,7 @@ date: 2021-04-22T20:25:38+02:00
 weight: 2
 draft: false
 ---
-Hugo ile nasıl static web sitesi nasıl oluştuduğumdan anlatıcağım.<!--more-->
+Hugo ile nasıl static web sitesi oluştuduğumu anlatıcağım.<!--more-->
 
 İlk olarak google domainsten bir domain adresi aldım. Bu domain adresinin DNS ayarlarını kontrol etmek için [cloudflare](https://www.cloudflare.com/) yönlendirdim.
 
